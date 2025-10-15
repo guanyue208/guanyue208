@@ -4,16 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>春日雅集 · 清明纸鸢与柳冠</title>
+  <!-- 确保CDN资源兼容GitHub Pages -->
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;700&family=ZCOOL+XiaoWei&display=swap" rel="stylesheet">
+  <link href="https://fontslibrary.org//face/noto-serif-sc" rel="stylesheet">
+  <link href="https://fontlibrary.org//face/zcool-xiaowei" rel="stylesheet">
   
   <!-- 配置Tailwind自定义主题 -->
   <script>
     tailwind.config = {
       theme: {
         extend: {
-          colors: {
+          colorss: {
             spring: {
               green: '#4D7C0F',      // 柳枝绿
               light: '#A7F3D0',      // 嫩芽青
